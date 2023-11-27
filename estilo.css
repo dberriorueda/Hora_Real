@@ -1,3 +1,27 @@
+.body {
+    background-color: #f2f2f2;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.reloj {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.tiempo {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0 5px;
+}
+.separador {
+    margin: 0 5px;
+}
 .contenedor {
     font-family: Arial, Helvetica, sans-serif;
     color: blue;
@@ -7,4 +31,8 @@
     top: 50%;
     transform: translate(-50%, -50%);
     font-size: 70px;
+    text-align: center;
+}
+#horas, #minutos, #segundos, #session {
+    color: blue;
 }
