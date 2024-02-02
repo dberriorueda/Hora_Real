@@ -32,6 +32,8 @@
     transform: translate(-50%, -50%);
     font-size: 70px;
     text-align: center;
+    border-radius: 10px;
+    border: 5px solid black;
 }
 #horas, #minutos, #segundos, #session {
     color: blue;
